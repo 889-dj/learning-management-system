@@ -36,7 +36,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Course'
-  
+
   /courses/{courseId}:
     get:
       summary: Get course by ID
